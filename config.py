@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # --- DATA CONFIGURATION ---
 TICKER: str = "TSLA"
-START_DATE: str = (datetime.now() - timedelta(days=6*365)).strftime('%Y-%m-%d')
+START_DATE: str = (datetime.now() - timedelta(days=5*365)).strftime('%Y-%m-%d')
 END_DATE: str = datetime.now().strftime('%Y-%m-%d')
 
 # --- STRATEGY CONFIGURATION ---
