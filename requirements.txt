@@ -1,0 +1,6 @@
+pandas
+numpy<2.0
+yfinance
+matplotlib
+pandas-ta
+seaborn
